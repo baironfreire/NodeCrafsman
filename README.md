@@ -1,5 +1,5 @@
 # NodeCrafsman
-NodeCrafsman - Desarrollador de Software Full Stack  Bienvenido a NodeCrafsman, donde la artesanía y la maestría se encuentran en el mundo del desarrollo de software. Soy un apasionado desarrollador full stack con una amplia experiencia en diversas tecnologías, destacando mi enfoque en Node.js y TypeScript.
+NodeCrafsman - 🚀 Desarrollador de Software Full Stack  Bienvenido a NodeCrafsman, donde la artesanía y la maestría se encuentran en el mundo del desarrollo de software. Soy un apasionado desarrollador full stack con una amplia experiencia en diversas tecnologías, destacando mi enfoque en Node.js y TypeScript.
 
 **Habilidades Destacadas:**
 
@@ -41,8 +41,8 @@ NodeCrafsman está listo para abordar nuevos desafíos y aportar soluciones inno
 
 Para cualquier pregunta o colaboración, no dudes en ponerte en contacto conmigo.
 
-- Nombre: Bairon Fernando Freire Otalvaro
-- Correo electrónico: freire.otalvaro.bf@gmail.com, bairon.f5@gmail.com
-- LinkedIn: www.linkedin.com/in/bairon-freire-developer-software
+¡Espero saber pronto de ti! 😊
 
-¡Espero saber pronto de ti!
+- **Nombre:** Bairon Fernando Freire Otalvaro
+- **Correo electrónico:** [freire.otalvaro.bf@gmail.com](mailto:freire.otalvaro.bf@gmail.com), [bairon.f5@gmail.com](mailto:bairon.f5@gmail.com)
+- **LinkedIn:** [www.linkedin.com/in/bairon-freire-developer-software](https://www.linkedin.com/in/bairon-freire-developer-software)
