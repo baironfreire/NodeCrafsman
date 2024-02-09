@@ -36,3 +36,13 @@ Además de mi experiencia técnica, tengo habilidades sólidas en la comunicaci�
 **¡Hagamos realidad tus proyectos!**
 
 NodeCrafsman está listo para abordar nuevos desafíos y aportar soluciones innovadoras. Si buscas un desarrollador full stack con un enfoque versátil y orientado a la calidad, ¡contáctame hoy para discutir cómo podemos trabajar juntos en tu próximo proyecto!
+
+## Contacto
+
+Para cualquier pregunta o colaboración, no dudes en ponerte en contacto conmigo.
+
+- Nombre: Bairon Fernando Freire Otalvaro
+- Correo electrónico: freire.otalvaro.bf@gmail.com, bairon.f5@gmail.com
+- LinkedIn: www.linkedin.com/in/bairon-freire-developer-software
+
+¡Espero saber pronto de ti!
