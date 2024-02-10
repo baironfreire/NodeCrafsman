@@ -4,8 +4,9 @@ NodeCrafsman - 🚀 Desarrollador de Software Full Stack  Bienvenido a NodeCrafs
 **Habilidades Destacadas:**
 
 - **Lenguajes de Programación:** Node.js, TypeScript, JavaScript.
+- **Desarrollo Frontend:** Angular 2+, HTML5, CSS3, Bootstrap 3+.
 - **Pruebas y Desarrollo Guiado por Pruebas (TDD):** Jest (unittest), TDD.
-- **Serverless y Computación en la Nube:** AWS Lambda, DynamoDB, AWS SDK, Serverless Framework.
+- **Serverless y Computación en la Nube:** AWS, AWS Lambda, DynamoDB, Serverless Framework.
 - **Gestión de Dependencias y Versionado:** npm, Git Flow, Git Trunk Based.
 - **Arquitectura de Software:** Hexagonal, Código HTTP Response, AWS Cognito.
 - **DevOps y CI/CD:** Manejo de releases, Pipelines en Azure, AWS API Gateway.
@@ -24,6 +25,7 @@ He trabajado en proyectos desafiantes donde mi enfoque versátil y habilidades e
 - Desarrollo de API utilizando Node.js y TypeScript, integrando AWS Cognito para la gestión de identidad.
 - Creación de pipelines de CI/CD en Azure para facilitar el despliegue continuo de aplicaciones.
 - Colaboración en la creación de documentación técnica utilizando OpenAPI y herramientas como Stoplight.
+- Implementé funcionalidades en tiempo real mediante Socket.IO,
 
 **Certificaciones:**
 - Ingeniero de Sistemas
