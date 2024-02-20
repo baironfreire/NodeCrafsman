@@ -4,6 +4,7 @@ import { AboutComponent } from './about/about.component';
 import { PagesRoutingModule } from './pages-routing.module';
 import { ExperienceComponent } from './experience/experience.component';
 import { EducationComponent } from './education/education.component';
+import { SkillComponent } from './skill/skill.component';
 
 
 
@@ -11,7 +12,8 @@ import { EducationComponent } from './education/education.component';
   declarations: [
     AboutComponent,
     ExperienceComponent,
-    EducationComponent
+    EducationComponent,
+    SkillComponent
   ],
   imports: [
     CommonModule,
