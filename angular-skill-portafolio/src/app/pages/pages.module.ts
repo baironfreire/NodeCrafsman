@@ -5,6 +5,7 @@ import { PagesRoutingModule } from './pages-routing.module';
 import { ExperienceComponent } from './experience/experience.component';
 import { EducationComponent } from './education/education.component';
 import { SkillComponent } from './skill/skill.component';
+import { HobbiesComponent } from './hobbies/hobbies.component';
 
 
 
@@ -13,7 +14,8 @@ import { SkillComponent } from './skill/skill.component';
     AboutComponent,
     ExperienceComponent,
     EducationComponent,
-    SkillComponent
+    SkillComponent,
+    HobbiesComponent
   ],
   imports: [
     CommonModule,
