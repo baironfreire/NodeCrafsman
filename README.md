@@ -1,50 +1,27 @@
-# NodeCrafsman
-NodeCrafsman - 🚀 Desarrollador de Software Full Stack  Bienvenido a NodeCrafsman, donde la artesanía y la maestría se encuentran en el mundo del desarrollo de software. Soy un apasionado desarrollador full stack con una amplia experiencia en diversas tecnologías, destacando mi enfoque en Node.js y TypeScript.
+# AngularSkillPortafolio
 
-**Habilidades Destacadas:**
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.18.
 
-- **Lenguajes de Programación:** Node.js, TypeScript, JavaScript.
-- **Desarrollo Frontend:** Angular 2+, HTML5, CSS3, Bootstrap 3+.
-- **Pruebas y Desarrollo Guiado por Pruebas (TDD):** Jest (unittest), TDD.
-- **Serverless y Computación en la Nube:** AWS, AWS Lambda, DynamoDB, Serverless Framework.
-- **Gestión de Dependencias y Versionado:** npm, Git Flow, Git Trunk Based.
-- **Arquitectura de Software:** Hexagonal, Código HTTP Response, AWS Cognito.
-- **DevOps y CI/CD:** Manejo de releases, Pipelines en Azure, AWS API Gateway.
-- **Documentación y Especificación:** OpenAPI, Stoplight.
-- **Base de Datos y Persistencia:** Redis en AWS, MariaDB, Liquibase.
-- **Modelado y Diseño:** Diagramas de Secuencias, Diagramas de Componentes.
-- **Gestión de Identidad y Acceso:** Creación de roles en AWS IAM.
+## Development server
 
-**Experiencia Profesional:**
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-He trabajado en proyectos desafiantes donde mi enfoque versátil y habilidades en diferentes tecnologías han sido clave para el éxito. Desde el diseño de arquitecturas escalables hasta la implementación de soluciones serverless eficientes, mi experiencia abarca un amplio espectro.
+## Code scaffolding
 
-**Proyectos Destacados:**
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-- Implementación de microservicios serverless utilizando AWS Lambda y DynamoDB.
-- Desarrollo de API utilizando Node.js y TypeScript, integrando AWS Cognito para la gestión de identidad.
-- Creación de pipelines de CI/CD en Azure para facilitar el despliegue continuo de aplicaciones.
-- Colaboración en la creación de documentación técnica utilizando OpenAPI y herramientas como Stoplight.
-- Implementé funcionalidades en tiempo real mediante Socket.IO,
+## Build
 
-**Certificaciones:**
-- Ingeniero de Sistemas
-- Certificado en Desarrollo de Software con Node.js.
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-**Colaboración y Comunicación:**
+## Running unit tests
 
-Además de mi experiencia técnica, tengo habilidades sólidas en la comunicación y la colaboración. He trabajado en equipos ágiles utilizando metodologías como Scrum y estoy comprometido con la mejora continua.
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-**¡Hagamos realidad tus proyectos!**
+## Running end-to-end tests
 
-NodeCrafsman está listo para abordar nuevos desafíos y aportar soluciones innovadoras. Si buscas un desarrollador full stack con un enfoque versátil y orientado a la calidad, ¡contáctame hoy para discutir cómo podemos trabajar juntos en tu próximo proyecto!
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Contacto
+## Further help
 
-Para cualquier pregunta o colaboración, no dudes en ponerte en contacto conmigo.
-
-¡Espero saber pronto de ti! 😊
-
-- **Nombre:** Bairon Fernando Freire Otalvaro
-- **Correo electrónico:** [freire.otalvaro.bf@gmail.com](mailto:freire.otalvaro.bf@gmail.com), [bairon.f5@gmail.com](mailto:bairon.f5@gmail.com)
-- **LinkedIn:** [www.linkedin.com/in/bairon-freire-developer-software](https://www.linkedin.com/in/bairon-freire-developer-software)
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
