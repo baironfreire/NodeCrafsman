@@ -1,0 +1,21 @@
+<div class="card shadow">      
+    <h5 class="card-header cm-bg-light cm-text-dark fw-bold d-flex justify-content-between">
+        <div>
+            <i class="fas fa-code"></i>&nbsp;
+           
+        </div>
+        <div>
+           {{title}}
+        </div>
+        <div>
+            <i class="far fa-window-minimize"></i>&nbsp;
+            <i class="far fa-window-maximize"></i>&nbsp;
+            <i class="fas fa-times"></i>
+        </div>
+    </h5>
+   
+    <div class="card-body overflow-auto" style="max-height: 65vh;">
+        <ng-content></ng-content>
+    </div>
+      
+</div>
