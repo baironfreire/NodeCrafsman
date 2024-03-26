@@ -4,10 +4,14 @@ export class Person {
         public lastName:string,
         public email:string,
         public cellphone: string,
-        public address:string
+        public address:string,
+        public profile:string,
+        public city: string,
+        public department:string,
+        public country:string
     ){}
 
-    public getFullname(){
+    public getFullName(){
         return `${this.name} ${this.lastName}`;
     }
 }

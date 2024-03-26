@@ -9,13 +9,22 @@ export class User extends Person {
         public address: string,
         public username:string,
         public email:string,
+        public profile:string,
+        public city: string,
+        public department:string,
+        public country:string,
+        public role:string
     ){
         super(
             name,
             lastName,
             email,
             cellPhone,
-            address
+            address,
+            profile,
+            city,
+            department,
+            country
         );
     }
 

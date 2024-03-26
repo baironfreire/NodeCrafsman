@@ -7,6 +7,8 @@ import { EducationComponent } from './education/education.component';
 import { SkillComponent } from './skill/skill.component';
 import { HobbiesComponent } from './hobbies/hobbies.component';
 import { SharedModule } from '../shared/shared.module';
+import { CoreModule } from '../core/core.module';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -20,8 +22,10 @@ import { SharedModule } from '../shared/shared.module';
   ],
   imports: [
     CommonModule,
+    HttpClientModule,
     PagesRoutingModule,
-    SharedModule
+    SharedModule,
+    CoreModule
   ]
 })
 export class PagesModule { }
