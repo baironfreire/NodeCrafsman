@@ -9,6 +9,7 @@ import { HobbiesComponent } from './hobbies/hobbies.component';
 import { SharedModule } from '../shared/shared.module';
 import { CoreModule } from '../core/core.module';
 import { HttpClientModule } from '@angular/common/http';
+import { AwardsComponent } from './awards/awards.component';
 
 
 
@@ -18,7 +19,8 @@ import { HttpClientModule } from '@angular/common/http';
     ExperienceComponent,
     EducationComponent,
     SkillComponent,
-    HobbiesComponent
+    HobbiesComponent,
+    AwardsComponent
   ],
   imports: [
     CommonModule,
