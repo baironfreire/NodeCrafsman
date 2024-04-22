@@ -6,10 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./skill.component.css']
 })
 export class SkillComponent implements OnInit {
-
+  title!:string;
   constructor() { }
 
   ngOnInit(): void {
+    this.title = 'Habilidades Tecnicas'
   }
 
 }
