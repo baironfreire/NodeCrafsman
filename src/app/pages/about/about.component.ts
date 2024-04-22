@@ -10,24 +10,17 @@ import { UserService } from '../../core/services/user.service';
 export class AboutComponent implements OnInit {
 
   title!:string;
-  user!:User;
+  user!:User|undefined;
   id!:number;
   constructor(
     private userService: UserService
   ) { }
 
-  ngOnInit() {
+  async ngOnInit() {
     this.id = 1;
     this.title = 'Perfil Profesional';
-    this.userService.getUserInfoById(this.id).subscribe(
-      (response) => {
-        console.log('user', response)
-        this.user = response
-      },
-      (error) => {
-        console.log("Error ", error)
-      }
-    );
+    this.user = await this.userService.findUserById(this.id);
+    console.log('user', this.user);
   }
 
 }

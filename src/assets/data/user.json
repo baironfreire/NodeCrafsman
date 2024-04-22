@@ -1,0 +1,16 @@
+[
+    {
+        "id": "1",
+        "name": "Bairon",
+        "lastName": "Freire otalvaro",
+        "cellPhone": "(+57) 322-568-7135",
+        "address": "Cra 28B2 72F 146 Comuneros 2",
+        "username":"bairon.freire",
+        "email":"bairon.f5@gmail.com",
+        "profile": "Desarrollador Full stack con más de 8 años de experiencia en el ámbito de desarrollo web y soluciones tecnológicas. Especializado en el diseño e implementación de microservicios en entornos de nube, con un enfoque en la eficiencia y la escalabilidad. Poseo habilidades sólidas en diversos lenguajes de programación como Node.js, Java y Python, así como experiencia práctica en el despliegue y gestión de aplicaciones en plataformas en la nube, especialmente AWS. Mi trayectoria profesional abarca tanto el desarrollo del Frontend como del Backend, con experiencia destacada en proyectos utilizando el framework Angular 12+ . He desempeñado roles clave en proyectos estratégicos, destacándome en la integración de sistemas complejos y en la resolución de desafíos técnicos. Me caracterizo por seguir las mejores prácticas de metodologías ágiles como Scrum, priorizando la calidad del código y la entrega temprana de los productos. Mi compromiso con la excelencia se refleja en cada fase del desarrollo, contribuyendo significativamente al logro de los objetivos del equipo y la satisfacción del cliente.",
+        "city":"Cali",
+        "department": "Valle del Cauca",
+        "country": "Colombia",
+        "role": "Full stack developer"
+    }
+]

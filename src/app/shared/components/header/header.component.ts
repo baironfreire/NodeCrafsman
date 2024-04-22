@@ -15,25 +15,22 @@ export class HeaderComponent implements OnInit {
     
   }
 
-  ngOnInit(): void {
-    this.userService.getUserInfoById(1).subscribe((user:User) => {
-      console.log('user', user);
-      this.user = new User(
-        user.name,
-        user.lastName,
-        user.cellPhone,
-        user.address,
-        user.username,
-        user.email,
-        user.profile,
-        user.city,
-        user.department,
-        user.country,
-        user.role
-      )
-    }, (error) => {
-      console.log('%csrc/app/shared/components/header/header.component.ts:21 error', 'color: #007acc;', error);
-    })
+  async ngOnInit(): Promise<void> {
+    let user:any = await this.userService.findUserById(1);
+    this.user = new User(
+      user.id,
+      user.name,
+      user.lastName,
+      user.cellPhone,
+      user.address,
+      user.username,
+      user.email,
+      user.profile,
+      user.city,
+      user.department,
+      user.country,
+      user.role
+    )
   }
 
 }

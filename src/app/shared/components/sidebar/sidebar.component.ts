@@ -8,17 +8,13 @@ import { UserService } from 'src/app/core/services/user.service';
   styleUrls: ['./sidebar.component.css']
 })
 export class SidebarComponent implements OnInit {
-  public user!:User;
+  public user!:User|undefined;
   constructor(
     private userService: UserService
   ) { }
 
-  ngOnInit(): void {
-    this.userService.getUserInfoById(1).subscribe((user) => {
-      this.user = user
-    }, (error) => {
-      console.log('%csrc/app/shared/components/sidebar/sidebar.component.ts:20 error', 'color: #007acc;', error);
-    })
+  async ngOnInit(): Promise<void> {
+    this.user = await this.userService.findUserById(1);
   }
 
 }
