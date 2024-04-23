@@ -11,9 +11,10 @@ export interface timeLineItems {
   providedIn: 'root'
 })
 export class DataTimeLineService {
-  selectedItem!: timeLineItems;
   private itemsSubject = new Subject<any[]>();
+  private selectedItemsSubject = new Subject<any>();
   items$: Observable<timeLineItems[]> = this.itemsSubject.asObservable();
+  selectedItem$: Observable<timeLineItems> = this.selectedItemsSubject.asObservable();
 
 
   constructor() { }
@@ -21,14 +22,8 @@ export class DataTimeLineService {
   setItems(items:timeLineItems[]) {
     this.itemsSubject.next(items)
   }
-
-
   setSelectedItem(item:timeLineItems){
-    console.log('%csrc/app/shared/services/data-time-line.service.ts:27 item', 'color: #007acc;', item);
-    this.selectedItem = item
+    this.selectedItemsSubject.next(item) 
   }
 
-  getSelectedItem(){
-    return this.selectedItem;
-  }
 }

@@ -9,6 +9,7 @@
     padding-left: 10px;
     padding-bottom: 1px;
     position: relative;
+    cursor: pointer;
 }
 .time-line-item:before {
     content: '';
