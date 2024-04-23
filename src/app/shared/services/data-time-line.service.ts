@@ -1,9 +1,9 @@
 import { Injectable } from '@angular/core';
-import { Observable, of } from 'rxjs';
+import { Observable, Subject, of } from 'rxjs';
 
 export interface timeLineItems {
-  startDate: string,
-  endDate: string,
+  id: number,
+  period: string,
   description: string
 }
 
@@ -11,14 +11,24 @@ export interface timeLineItems {
   providedIn: 'root'
 })
 export class DataTimeLineService {
-  items: timeLineItems[] = [];
+  selectedItem!: timeLineItems;
+  private itemsSubject = new Subject<any[]>();
+  items$: Observable<timeLineItems[]> = this.itemsSubject.asObservable();
+
+
   constructor() { }
 
   setItems(items:timeLineItems[]) {
-    this. items = items
+    this.itemsSubject.next(items)
   }
 
-  getItems():Observable<timeLineItems[]>{
-    return of(this.items)
+
+  setSelectedItem(item:timeLineItems){
+    console.log('%csrc/app/shared/services/data-time-line.service.ts:27 item', 'color: #007acc;', item);
+    this.selectedItem = item
+  }
+
+  getSelectedItem(){
+    return this.selectedItem;
   }
 }

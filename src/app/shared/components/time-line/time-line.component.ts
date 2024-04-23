@@ -11,13 +11,13 @@ export class TimeLineComponent implements OnInit {
   items:timeLineItems[]= []
 
   constructor(
-    private dataTimeLineService: DataTimeLineService
+    public dataTimeLineService: DataTimeLineService
   ) { }
 
   ngOnInit(): void {
-    this.dataTimeLineService.getItems().subscribe((items) => {
-      this.items = items
-    })
+    this.dataTimeLineService.items$.subscribe(items => {
+      this.items = items;
+    });
   }
 
 }

@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { DataTimeLineService } from 'src/app/shared/services/data-time-line.service';
+import { ExperienceService } from '../../core/services/experience.service';
+import { Experience } from 'src/app/shared/models/experience.model';
+import { timeLineItems } from '../../shared/services/data-time-line.service';
 
 @Component({
   selector: 'app-experience',
@@ -8,31 +11,25 @@ import { DataTimeLineService } from 'src/app/shared/services/data-time-line.serv
 })
 export class ExperienceComponent implements OnInit {
   title!:string;
+  selectedExperience:any;
+  experiencies:Experience[] = [];
   constructor(
-    private dataTimeLineService: DataTimeLineService
-  ) { }
+    private dataTimeLineService: DataTimeLineService,
+    private experienceService: ExperienceService
+  ) { 
+    this.experienceService.getAllExperiences().subscribe((exp:Experience[]) => {
+      this.experienceService.crearItemsTimeLine(exp).then(
+        (items:any) => {
+          console.log('items', items)
+          this.dataTimeLineService.setItems(items)
+        }
+      )
+    })
+  }
 
   ngOnInit(): void {
     this.title = 'Experiencia Profesional';
-    this.dataTimeLineService.setItems(
-      [
-        {
-          startDate: "09/2021",
-          endDate: "09/2023",
-          description: "Accenture - Bam - Backend Developer - Colombia - Bogota"
-        },
-        {
-          startDate: "09/2018",
-          endDate: "09/2021",
-          description: "Iteria - Colokial - Full Stack Developer - Colombia - Cali"
-        },
-        {
-          startDate: "09/2015",
-          endDate: "09/2018",
-          description: "Premize - Energon - Full Stack Developer - Colombia - Cali"
-        },
-      ]
-    )
+    
   }
 
 }
