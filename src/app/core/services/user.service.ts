@@ -16,5 +16,23 @@ export class UserService {
       console.log(`${environment.userRoute.getInfoUserById}/${userId}`);
       return this.http.get<User>(`${environment.userRoute.getInfoUserById}/${userId}`);
   }
+  public getAllUsers(): Observable<User[]> {
+    return this.http.get<User[]>(`${environment.userRoute.getAllUser}`);
+  }
+  public findUserById(userId:number): Promise<User|undefined>{
+    return new Promise((resolve, reject) => {
+        this.getAllUsers().subscribe(
+          (response:User[]) => {
+            console.log('user', response)
+            let user = response.find((user:User) => user.id == userId) || undefined
+            resolve(user);
+          },
+          (error) => {
+            console.log("Error ", error)
+            reject(undefined)
+          }
+        );
+    })
+  }
 
 }

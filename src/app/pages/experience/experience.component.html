@@ -8,38 +8,16 @@
         </div>
       </div>
       <div class="card col-lg-8 border-0 ">
+        <h5 class="card-header border-0">Detalle del Proyecto</h5>
           <div class="card-body">
-            <h5 class="card-title">SENIOR ANALYST - BACKEND DEVELOPER</h5>
+            <h5 class="card-title">{{selectedExperience?.role}}</h5>
             <h6>
-              ACCENTURE - BOGOTÁ (HOME OFFICE / SCRUM / BACKEND DEVELOPER / BANK-GUATEMALA)
+              {{selectedExperience?.project}} - {{selectedExperience?.company}} - {{selectedExperience?.location}}
             </h6>
-            <h6>Septiembre 2021 - Diciembre 2023</h6>
-            <ul>
-              <li>
-                Contribuí como Desarrollador de Backend en el proyecto BAM para
-                Bancolombia en Guatemala, desempeñando un papel destacado en la
-                implementación de microservicios en la nube de AWS.
-              </li>
-              <li>
-                Participé de manera remota desde Bogotá en un entorno ágil (Scrum), priorizando la
-                eficiencia y la obtención de resultados tangibles.
-              </li>
-              <li>
-                Encabecé el desarrollo de 30 microservicios en AWS, logrando una mejora del 20% en la
-                eficiencia del sistema, medido a través de métricas de rendimiento y tiempos de
-                respuesta.
-              </li>
-              <li>
-                Me encargué de la implementación de pipelines y procesos de release en Azure,
-                generando un aumento del 15% en la velocidad de entrega del proyecto.
-              </li>
-              <li>
-                Haciendo uso de tecnologías como Serverless, Node.js y TypeScript, diseñe servicios
-                escalables y de alto rendimiento para satisfacer las necesidades del proyecto.
-              </li>
-              <li>
-                Elaboré diagramas detallados para mejorar la comprensión del sistema, facilitando la
-                comunicación entre los miembros del equipo.
+            <h6>{{selectedExperience?.period}}</h6>
+            <ul >
+              <li *ngFor="let responsability of selectedExperience?.responsibilities" >
+                {{responsability}}
               </li>
             </ul>
           </div>

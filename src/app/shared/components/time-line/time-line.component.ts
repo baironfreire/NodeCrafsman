@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DataTimeLineService, timeLineItems } from '../../services/data-time-line.service';
 
 @Component({
   selector: 'app-time-line',
@@ -7,9 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TimeLineComponent implements OnInit {
 
-  constructor() { }
+  items:timeLineItems[]= []
+
+  constructor(
+    public dataTimeLineService: DataTimeLineService
+  ) { }
 
   ngOnInit(): void {
+    this.dataTimeLineService.items$.subscribe(items => {
+      this.items = items;
+    });
   }
 
 }

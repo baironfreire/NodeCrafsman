@@ -6,6 +6,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { CardTerminalComponent } from './components/card-terminal/card-terminal.component';
 import { TimeLineComponent } from './components/time-line/time-line.component';
 import { HttpClientModule } from '@angular/common/http';
+import { DataTimeLineService } from './services/data-time-line.service';
 
 
 
@@ -28,6 +29,8 @@ import { HttpClientModule } from '@angular/common/http';
     CardTerminalComponent,
     TimeLineComponent
   ],
-  providers: []
+  providers: [
+    DataTimeLineService
+  ]
 })
 export class SharedModule { }

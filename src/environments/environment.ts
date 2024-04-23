@@ -6,7 +6,11 @@ export const environment = {
   production: false,
   api: api,
   userRoute: {
-    getInfoUserById: `${api}/users`
+    getInfoUserById: `/assets/data/user.json`,
+    getAllUser: `/assets/data/user.json`
+  },
+  experienceRoute: {
+    getAllExperiencies: `/assets/data/experience.json`
   }
 };
 

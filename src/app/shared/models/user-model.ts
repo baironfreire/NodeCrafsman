@@ -3,6 +3,7 @@ import { Person } from "./person.model";
 export class User extends Person {
     private password!:string;
     constructor(
+        public id: number,
         public name: string,
         public lastName: string,
         public cellPhone: string,
@@ -16,6 +17,7 @@ export class User extends Person {
         public role:string
     ){
         super(
+            id,
             name,
             lastName,
             email,

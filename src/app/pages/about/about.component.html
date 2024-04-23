@@ -1,4 +1,4 @@
 <app-card-terminal [title]="title">
-  <p style="text-align: justify"> {{user.profile}}</p>
+  <p style="text-align: justify"> {{user?.profile || 'Profile'}}</p>
   <span class="text-success">root@bairon-freire:~$</span><span class="cursor"></span>
 </app-card-terminal>

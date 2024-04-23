@@ -1,0 +1,73 @@
+[
+    {
+        "id": 1,
+        "role": "Backend Developer",
+        "project": "BAM",
+        "company": "Accenture",
+        "location": "Bogotá - Colombia",
+        "period": "Septiembre 2021 - Diciembre 2023",
+        "responsibilities": [
+            "Haciendo uso de tecnologías como Serverless, Node.js y TypeScript, diseñe servicios escalables y de alto rendimiento para satisfacer las necesidades del proyecto.",
+            "Contribuí en la creación de contratos de los servicios REST utilizando Stoplight, lo que garantizó una comunicación clara y consistente entre los equipos de desarrollo",
+            "Participé activamente en el tasking, refinamiento de historias y revisiones de código, asegurando la calidad y coherencia del producto final.",
+            "Desarrollé funciones Lambda en AWS para implementar lógica de negocio y procesamiento de datos de manera eficiente y escalable",
+            "Implementé API Gateway en AWS para gestionar y enrutar las solicitudes a las funciones Lambda correspondiente",
+            "Utilicé DynamoDB como base de datos NoSQL para el almacenamiento de información, aprovechando su escalabilidad y rendimiento",
+            "Trabajé con SQS en AWS para desacoplar los microservicios y mejorar la tolerancia a fallos del sistema",
+            "Utilicé Redis para optimizar el rendimiento de los microservicios mediante el almacenamiento en caché de datos frecuentemente accesados",
+            "Implementé AWS X-Ray para el análisis y optimización de los microservicios, identificando y resolviendo cuellos de botella de manera proactiva.",
+            "Utilicé Serverless Framework para el aprovisionamiento y despliegue automatizado de servicios en la nube.",
+            "Diseñé y creé pipelines para el despliegue continuo de aplicaciones, asegurando entregas rápidas y confiables.",
+            "Configuré los releases de manera efectiva, coordinando el despliegue de nuevas versiones del software de manera ordenada y sin interrupciones",
+            "Trabajé con  Liquibase para la gestión y versionado de esquemas de bases de datos relacionales como MariaDB, garantizando consistencia y control en los cambios de la estructura de datos",
+            "Desarrollé pruebas unitarias utilizando Jest Unit para garantizar la calidad y fiabilidad del código",
+            "Adopté el enfoque de Desarrollo Dirigido por Pruebas (TDD) para mejorar la calidad del código y la confiabilidad del software.",
+            "Seguí principios de arquitectura hexagonal y SOLID para garantizar un diseño de software modular, flexible y mantenible.",
+            "Elaboré diagramas de secuencia y componentes para facilitar el entendimiento del sistema por parte del equipo y mejorar la comunicación.",
+            "Participé activamente en las reuniones diarias (daily standups), actualizando al equipo sobre el progreso y los impedimentos.",
+            "Realicé la inducción de nuevos integrantes al equipo, proporcionando orientación y apoyo para acelerar su integración y productividad."
+        ]
+    },
+    {
+        "id": 2,
+        "role": "Full Stack Developer",
+        "project": "COLOKIAL",
+        "company": "ITERIA S.A",
+        "location": "Cali - Valle del Cauca - Colombia",
+        "period": "Junio 2019 - Septiembre 2021",
+        "responsibilities": [
+            "Participé en la creación y refinamiento de historias de usuarios para garantizar la alineación con los requisitos del cliente y las necesidades del proyecto.",
+            "Diseñé las interfaces de usuario utilizando la herramienta Figma, asegurando una experiencia de usuario intuitiva y atractiva.",
+            "Desarrollé las interfaces de usuario utilizando Angular 2+ y Bootstrap, centrándome en la implementación de un diseño responsive y estéticamente agradable.",
+            "Implementé la arquitectura de microservicios para la capa backend, utilizando tecnologías como Python 3+, Node.js 12+, TypeScript, Express y Django, garantizando una estructura modular y escalable del sistema.",
+            "Practiqué el desarrollo dirigido por pruebas (TDD), utilizando Jest Unit para realizar pruebas unitarias exhaustivas y garantizar la calidad del código.",
+            "Seguí principios de arquitectura hexagonal y SOLID para garantizar la cohesión, la modularidad y la facilidad de mantenimiento del código.",
+            "Utilicé Celery para la programación de tareas asíncronas y en segundo plano, asegurando la eficiencia y la gestión adecuada de las operaciones en segundo plano.",
+            "Contribuí a la creación de procedimientos almacenados, funciones, tablas y vistas en PostgreSQL para respaldar las operaciones de base de datos del sistema.",
+            "Integré servicios de terceros a través de servicios SOAP y REST para obtener información relevante de los clientes, optimizando la funcionalidad y la utilidad del sistema.",
+            "Utilicé GitFlow para el control de versiones del código, garantizando una gestión eficiente de las ramas y la colaboración en el desarrollo.",
+            "Trabajé en un entorno ágil Scrum, participando en reuniones diarias, planificación de tareas, retrospectivas y reuniones de entrega de sprint para garantizar la transparencia, la colaboración y la entrega puntual del proyecto."
+        ]
+    },
+    {
+        "id": 3,
+        "role": "Full Stack Developer",
+        "project": "ENERGON",
+        "company": "PREMIZE S.A",
+        "location": "Cali - Valle del Cauca - Colombia",
+        "period": "Septiembre 2014 - Junio 2019",
+        "responsibilities": [
+            "Participé en el desarrollo de un sistema integral de cotización de alquiler de plantas eléctricas en Java, bajo la metodología ágil Scrum.",
+            "Realicé el levantamiento y análisis de requerimientos, así como la creación de historias de usuario para garantizar la satisfacción del cliente.",
+            "Implementé mejoras significativas en la eficiencia operativa del sistema, lo que resultó en un aumento del 30% en la satisfacción del cliente.",
+            "Utilicé Java EE, Maven, Hibernate y Spring Boot para el desarrollo de las historias de usuario, aplicando patrones de diseño como DTO, Mapper y Repository.",
+            "Trabajé en un equipo de desarrollo bajo la metodología Scrum, participando en todas las ceremonias y asegurando la entrega oportuna de las funcionalidades acordadas.",
+            "Desempeñé un papel clave en el equipo de desarrollo, brindando soporte y resolviendo bugs",
+            "Identifiqué y diagnosticé proactivamente bugs, errores y problemas técnicos en el software, colaborando estrechamente con el equipo de desarrollo.",
+            "Realicé investigaciones detalladas para comprender las causas subyacentes de los problemas reportados, analizando registros y trazas para aislar comportamientos anómalos.",
+            "Colaboré con el equipo de desarrollo y otros especialistas para diseñar soluciones efectivas y desarrollé parches y soluciones temporales para problemas críticos.",
+            "Documenté exhaustivamente problemas identificados, soluciones propuestas y las implementaciones realizadas para referencia futura."
+        ]
+    }
+
+]

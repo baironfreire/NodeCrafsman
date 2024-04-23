@@ -1,14 +1,6 @@
 <ul class="time-line">
-    <li class="time-line-item" >
-      <h4 class="time-line-date">2022</h4>
-      <p>Project A - Developed frontend using Bootstrap.</p>
-    </li>
-    <li class="time-line-item">
-      <h4 class="time-line-date">2023</h4>
-      <p>Project B - Utilized Bootstrap for responsive design.</p>
-    </li>
-    <li class="time-line-item">
-      <h4 class="time-line-date">2024</h4>
-      <p>Project C - Integrated Bootstrap components for UI.</p>
+    <li class="time-line-item" *ngFor="let item of items" (click)="dataTimeLineService.setSelectedItem(item)">
+      <h6 class="time-line-date">{{item.period}}</h6>
+      <p>{{item.description}}</p>
     </li>
 </ul>

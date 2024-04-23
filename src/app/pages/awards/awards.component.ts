@@ -6,10 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./awards.component.css']
 })
 export class AwardsComponent implements OnInit {
-
+  title!:string
   constructor() { }
 
   ngOnInit(): void {
+    this.title = 'Cerficicaciones'
   }
 
 }
