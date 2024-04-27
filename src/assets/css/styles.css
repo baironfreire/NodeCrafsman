@@ -1,4 +1,5 @@
 
+@import "~bootstrap/dist/css/bootstrap.min.css";
 :root {
   --cm-primary: #3591E0;
   --cm-info:  #77ACD6;
