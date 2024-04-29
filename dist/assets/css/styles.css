@@ -1,0 +1,108 @@
+
+@import "~bootstrap/dist/css/bootstrap.min.css";
+:root {
+  --cm-primary: #3591E0;
+  --cm-info:  #77ACD6;
+  --cm-danger: #a47060;
+  --cm-dark: #36383E;
+  --cm-light:  #EEE7E1;
+
+  --bs-tertiary-bg: var(--cm-light);
+  --font-letter: 'cosmic sans'
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  font-family: var(--font-letter);
+}
+
+.cm-bg-primary {
+  background-color: var(--cm-primary);
+}
+
+.cm-text-primary {
+  color: var(--cm-primary);
+}
+
+.cm-bg-info {
+  background-color: var(--cm-info);
+}
+
+.cm-text-info {
+  color: var(--cm-info);
+}
+
+.cm-bg-danger {
+  background-color: var(--cm-danger);
+}
+
+.cm-text-danger {
+  color: var(--cm-danger);
+}
+
+.cm-bg-dark {
+  background-color: var(--cm-dark);
+}
+
+.cm-text-dark {
+  color: var(--cm-dark);
+}
+
+.cm-bg-light {
+  background-color: var(--cm-light);
+}
+
+.cm-text-light {
+  color: var(--cm-light);
+}
+
+.image-profile {
+ padding: 10px;
+}
+
+.image-profile img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.list-group a {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.list-group-item {
+  background-color: var(--cm-light);
+  padding-left: 0%;
+  border: 0;
+}
+
+.list-group-item:hover {
+  background-color: var(--cm-dark);
+  color: var(--cm-light);
+  cursor: pointer;
+  border-radius: 20px;
+  padding-left: 20px;
+}
+
+.sidebar-menu {
+  background-color: var(--cm-light);
+  padding: 0%;
+  height: 100%;
+ 
+}
+
+.cursor {
+  display: inline-block;
+  width: 10px;
+  height: 20px;
+  background-color: #36383E;
+  animation: blink-caret 0.75s infinite;
+}
+@keyframes blink-caret {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
