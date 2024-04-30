@@ -1,5 +1,8 @@
 <ul class="time-line">
-    <li class="time-line-item" *ngFor="let item of items" (click)="dataTimeLineService.setSelectedItem(item)">
+    <li class="time-line-item" *ngFor="let item of items"
+     (click)="dataTimeLineService.setSelectedItem(item); onSelectedItem(item)"
+     [class.active]="item === selectedItem"
+    >
       <h6 class="time-line-date">{{item.period}}</h6>
       <p>{{item.description}}</p>
     </li>

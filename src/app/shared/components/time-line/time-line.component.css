@@ -10,7 +10,15 @@
     padding-bottom: 1px;
     position: relative;
     cursor: pointer;
+    
 }
+.time-line-item:hover {
+    background-color: var(--cm-light);
+}
+.time-line-item.active {
+    background-color: var(--cm-light);
+}
+
 .time-line-item:before {
     content: '';
     position: absolute;

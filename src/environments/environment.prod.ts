@@ -1,6 +1,6 @@
 const api =  "http://localhost:3000";
 export const environment = {
-  production: true,
+  production: false,
   api: api,
   userRoute: {
     getInfoUserById: `/dist/assets/data/user.json`,
@@ -8,5 +8,8 @@ export const environment = {
   },
   experienceRoute: {
     getAllExperiencies: `/dist/assets/data/experience.json`
+  },
+  educationRoute: {
+    getAllEducation: `/dist/assets/data/education.json`
   }
 };

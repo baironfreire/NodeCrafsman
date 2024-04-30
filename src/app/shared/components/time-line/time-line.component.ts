@@ -9,7 +9,7 @@ import { DataTimeLineService, timeLineItems } from '../../services/data-time-lin
 export class TimeLineComponent implements OnInit {
 
   items:timeLineItems[]= []
-
+  selectedItem!: timeLineItems;
   constructor(
     public dataTimeLineService: DataTimeLineService
   ) { }
@@ -18,6 +18,12 @@ export class TimeLineComponent implements OnInit {
     this.dataTimeLineService.items$.subscribe(items => {
       this.items = items;
     });
+  }
+
+  onSelectedItem(item:any){
+    console.log('item selected', item);
+    this.selectedItem = item
+    console.log('selectedItem', this.selectedItem);
   }
 
 }

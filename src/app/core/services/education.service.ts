@@ -13,7 +13,7 @@ export class EducationService {
   ) { }
 
   public getAllEducation():  Observable<any[]>{
-    return this.http.get<any[]>(`${environment.experienceRoute.getAllExperiencies}`)
+    return this.http.get<any[]>(`${environment.educationRoute.getAllEducation}`)
   }
-  
+
 }

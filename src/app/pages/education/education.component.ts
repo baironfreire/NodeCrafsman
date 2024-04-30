@@ -14,12 +14,14 @@ export class EducationComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
-    this.title = 'Educación'
+    this.title = 'Educación';
+    this.getAllDegree();
   }
 
   getAllDegree(){
     this.educationService.getAllEducation().subscribe(
       (response) => {
+        console.log("reponse", response)
         this.degrees = response;
       }
     )
