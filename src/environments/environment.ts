@@ -11,6 +11,9 @@ export const environment = {
   },
   experienceRoute: {
     getAllExperiencies: `/dist/assets/data/experience.json`
+  },
+  educationRoute: {
+    getAllEducation: `/dist/assets/data/education.json`
   }
 };
 
