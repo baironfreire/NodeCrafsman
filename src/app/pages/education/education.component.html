@@ -1,38 +1,14 @@
 <app-card-terminal [title]="title">
     <div class="row">
-        <div class="col-sm-6 mt-1">
+        <div class="col-sm-6 mt-1" *ngFor="let education of degrees">
             <div class="card">
                 <div class="card-header">
-                    <h6>Institución Universitaria Antonio José Camacho</h6>
+                    <h6>{{education.university}}</h6>
                 </div>
                 <div class="card-body">
-                    <h5>Ingenieria en Sistemas</h5>
-                    <h6>Cali- Valle del Cauca</h6>
-                    <p>2012 - 2018</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-6 mt-1">
-            <div class="card">
-                <div class="card-header">
-                    <h6>Fcecep – Fundación Centro Colombiano de estudios profesionales</h6>
-                </div>
-                <div class="card-body">
-                    <h5>Tecnologia en Sistemas</h5>
-                    <h6>Cali- Valle del Cauca</h6>
-                    <p>2008 - 2011</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-6 mt-1">
-            <div class="card">
-                <div class="card-header">
-                    <h6>ITSIM – Institución Educativa Municipal Técnico Industrial</h6>
-                </div>
-                <div class="card-body">
-                    <h5>Bachiller Industrial</h5>
-                    <h6>Pasto - Nariño</h6>
-                    <p>2000 - 2007</p>
+                    <h5>{{education.degree}}</h5>
+                    <h6>{{education.location}}</h6>
+                    <p>{{education.period}}</p>
                 </div>
             </div>
         </div>
