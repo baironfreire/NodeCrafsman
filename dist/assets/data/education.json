@@ -1,0 +1,20 @@
+[
+    {
+        "university": "Institución Universitaria Antonio José Camacho",
+        "degree": "Ingenieria en Sistemas",
+        "period": "Cali- Valle del Cauca",
+        "location": "2012 - 2018"
+    },
+    {
+        "university": "Fcecep – Fundación Centro Colombiano de estudios profesionales",
+        "degree": "Tecnologia en Sistemas",
+        "period": "Cali- Valle del Cauca",
+        "location": "2008 - 2011"
+    },
+    {
+        "university": "ITSIM – Institución Educativa Municipal Técnico Industrial",
+        "degree": "Bachiller Industrial",
+        "period": "Pasto - Nariño",
+        "location": "2000 - 2007"
+    }
+]
